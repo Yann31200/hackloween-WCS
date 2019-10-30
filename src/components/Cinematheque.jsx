@@ -1,14 +1,13 @@
-import react from 'react';
-import './cinematheque.css';
+import React from 'react';
 
-function Cinematheque(props) {
+function Cinematheque({movie}) {
     return (
         <div className="cinematheque">
-            <h3> {props.title} </h3>
-            <img src={props.url}></img>
-            <cite> {director} </cite>
-            <cite> {year} </cite>
-            <cite> {country} </cite>
+            <h3> {movie.title} </h3>
+            <img src={movie.posterUrl} alt={movie.title}/>
+            <cite> {movie.director} </cite>
+            <cite> {movie.year} </cite>
+            <cite> {movie.country} </cite>
         </div>
     );
 }
