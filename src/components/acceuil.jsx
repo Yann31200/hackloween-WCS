@@ -19,7 +19,7 @@ class Home extends React.Component {
                 </div>
                 <div className="film">
                     <img className="images" src="https://zupimages.net/up/19/44/0j3u.jpg" />
-                    <img className="images" src="https://zupimages.net/up/19/44/tuqk.jpg" height="40px" />
+                    <img className="images" src="https://zupimages.net/up/19/44/tuqk.jpg" />
                     <img className="images" src="https://zupimages.net/up/19/44/6ihf.jpg" />
                     <img className="images" src="https://zupimages.net/up/19/44/aupc.jpg" />
                 </div>
