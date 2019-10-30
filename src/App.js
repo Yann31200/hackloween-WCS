@@ -1,10 +1,9 @@
 import React from 'react';
+import MoviesApi from './components/moviesApi';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <div><MoviesApi/></div>
   );
 }
 
