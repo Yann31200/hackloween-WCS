@@ -1,4 +1,3 @@
-import React from 'react';
 import './components/App.css';
 import Home from './components/Home';
 import Cinematheque from './components/Cinematheque';
@@ -30,7 +29,6 @@ function App() {
           <Game />
         </Route>
       </Switch>
-      
     </div>
   );
 }
