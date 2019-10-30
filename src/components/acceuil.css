@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    background-image: url('https://zupimages.net/up/19/44/yr4c.png');
+    background-size: cover;
+    color: aliceblue;
+    flex-wrap: wrap;
+    
+}
+
+.fond {
+    width: 100%;
+    height: 25%;
+}
+
+.title {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.film {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.images {
+    width: 25%;
+    height: auto;
+    flex-wrap: wrap;
+}
