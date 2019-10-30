@@ -1,11 +1,9 @@
 import React from 'react';
-import Cinematheque from './components/Cinematheque';
+import MoviesApi from './components/moviesApi';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <div><MoviesApi/></div>
   );
 }
 
