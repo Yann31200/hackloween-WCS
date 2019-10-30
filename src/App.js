@@ -1,10 +1,11 @@
 import React from 'react';
-import Cinematheque from './components/Cinematheque';
+import Footer from './components/Footer.jsx';
+// import Cinematheque from './components/Cinematheque';
 
 function App() {
   return (
     <div>
-      
+      <Footer />
     </div>
   );
 }
