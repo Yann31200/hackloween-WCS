@@ -5,7 +5,7 @@ import axios from "axios";
 class MoviesApi extends React.Component{
     constructor(props){
         super(props);
-        this.state = {movie: null};
+        this.state = {movie: []};
         this.getMovie = this.getMovie.bind(this);
         }
 
@@ -22,14 +22,17 @@ class MoviesApi extends React.Component{
             .then(response => response.data)
             .then(data => {
                 this.setState({
-                    movie: data.movies[0]
+                    movie: data.movies
             });
             });
         }
 
     render() {
-        const {movie} = this.state;
-        return <div>{this.state.movie ? <Cinematheque movie={movie}/> : null}</div>
+        let {movie} = this.state;
+        const allMovies = movie.map(movie => {
+            return <div>{this.state.movie ? <Cinematheque movie={movie}/> : null}</div>
+        });
+        return <div>{allMovies}</div>;
     }
 }
 
