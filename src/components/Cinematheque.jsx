@@ -1,14 +1,25 @@
 import React from 'react';
 import axios from 'axios';
+import Cinematheque from './Cinematheque';
 
 
 const Cinematheque = () => {
     return (
         <div>
-        <p>B****e le 666tème t'aime pas trop le 666 mais le 666 t'aime ! </p>
+          <Cinematheque />
         </div>
     );
 
+function Cinematheque({movie}) {
+    return (
+        <div className="cinematheque">
+            <h3> {movie.title} </h3>
+            <img src={movie.posterUrl} alt={movie.title}/>
+            <cite> {movie.director} </cite>
+            <cite> {movie.year} </cite>
+            <cite> {movie.country} </cite>
+        </div>
+    );
 }
 
 export default Cinematheque;
