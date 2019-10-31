@@ -2,26 +2,32 @@
 
 .footer-style {
     display: flex;
-    background-color: black;
+    background-color: rgb(22, 19, 19);
     width: 100%;
     padding: 2em;
     bottom: 0px;
     font-family: 'Creepster', cursive;
 }
 
-#LogoWild {
-    height: 72px;
-    width: 72px;
+.logo-style {
+    height: 30px;
+    width: 30px;
 }
 
 .footerp1 {
     display: flex;
-    color: #048a0b;
     width: 45%;
     flex-direction: column;
     font-size: 1.5em;
-    margin-left: 2em;
+    margin-left: 1em;
+}
 
+.para-footer {
+    color: rgb(20, 127, 146);
+    font-family: 'Griffy', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8em;
 }
 
 .footerp2 {
@@ -29,4 +35,6 @@
     align-items: center;
     justify-content: space-evenly;
     width: 45%;
+    padding-right: 2em;
+
 }

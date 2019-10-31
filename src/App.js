@@ -1,11 +1,10 @@
+import React from 'react';
+import MoviesApi from './components/moviesApi';
 import './components/App.css';
-import Home from './components/Home';
-import Cinematheque from './components/Cinematheque';
-import Game from './components/Game';
+import Home from './components/acceuil';
+// import Game from './components/Game';
 import {Link, Switch, Route} from 'react-router-dom';
-
-
-
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -22,13 +21,11 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
-        <Route path="/cinematheque">
-          <Cinematheque />
-        </Route>
+        <Route path="/cinematheque" component={MoviesApi}/>
         <Route path="/game">
-          <Game />
         </Route>
       </Switch>
+      <Footer/>
     </div>
   );
 }

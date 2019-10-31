@@ -1,14 +1,4 @@
 import React from 'react';
-import axios from 'axios';
-import Cinematheque from './Cinematheque';
-
-
-const Cinematheque = () => {
-    return (
-        <div>
-          <Cinematheque />
-        </div>
-    );
 
 function Cinematheque({movie}) {
     return (

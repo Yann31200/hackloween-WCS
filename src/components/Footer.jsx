@@ -9,14 +9,14 @@ function Footer() {
     return (
         <div className="footer-style">
             <div className="footerp1">
-                <p>Mention Illégales</p>
-                <p>A propos</p>
+                <p className="para-footer">Mention Illégales</p>
+                <p className="para-footer">A propos</p>
             </div>
             <div className="footerp2">
-                <img src={LogoFaceBook} alt="FaceBook" />
-                <img src={LogoInstagram} alt="Instagram" />
-                <img src={LogoTwitter} alt="Twitter" />
-                <img id="LogoWild" src={LogoWild} alt="Wild"/>
+                <img className="logo-style" src={LogoFaceBook} alt="FaceBook" />
+                <img className="logo-style" src={LogoInstagram} alt="Instagram" />
+                <img className="logo-style" src={LogoTwitter} alt="Twitter" />
+                <img className="logo-style" src={LogoWild} alt="Wild"/>
             </div>
         </div>
     )
