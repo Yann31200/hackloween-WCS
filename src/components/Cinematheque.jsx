@@ -1,13 +1,16 @@
 import React from 'react';
+import './cinematheque.css';
 
-function Cinematheque({movie}) {
+function Cinematheque({ movie }) {
     return (
         <div className="cinematheque">
-            <h3> {movie.title} </h3>
-            <img src={movie.posterUrl} alt={movie.title}/>
-            <cite> {movie.director} </cite>
-            <cite> {movie.year} </cite>
-            <cite> {movie.country} </cite>
+            <img className="movies" src={movie.posterUrl} alt={movie.title} />
+            <div className="infos">
+                <h3> {movie.title} </h3>
+                <cite> {movie.director} </cite>
+                <cite> {movie.year} </cite>
+                <cite> {movie.country} </cite>
+            </div>
         </div>
     );
 }

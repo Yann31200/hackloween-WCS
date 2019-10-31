@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Griffy&display=swap');
 
 .nav-container {
-    background-color: rgb(20, 127, 146)
+    background-color: rgb(20, 127, 146);
+}
+
+ul.nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 ul,li {

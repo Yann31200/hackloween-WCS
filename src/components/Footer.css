@@ -3,7 +3,6 @@
 .footer-style {
     display: flex;
     background-color: rgb(22, 19, 19);
-    width: 100%;
     padding: 2em;
     bottom: 0px;
     font-family: 'Creepster', cursive;
@@ -17,7 +16,6 @@
 .footerp1 {
     display: flex;
     width: 45%;
-    flex-direction: column;
     font-size: 1.5em;
     margin-left: 1em;
 }
@@ -28,6 +26,7 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 0.8em;
+    margin-right: 2em;
 }
 
 .footerp2 {
@@ -36,5 +35,7 @@
     justify-content: space-evenly;
     width: 45%;
     padding-right: 2em;
+    flex-direction: row;
+    align-items: center;
 
 }

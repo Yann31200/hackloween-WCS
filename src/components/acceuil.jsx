@@ -1,14 +1,7 @@
 import React from 'react';
 import './acceuil.css';
 
-class Home extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        }
-    };
-
-    render() {
+function Home( {movies}) {
         return (
             < div className="container" >
                 <div className="presentation">
@@ -18,7 +11,7 @@ class Home extends React.Component {
                     <h3 className="title">En voici une brève sélection ma p'tite flipette</h3>
                 </div>
                 <div className="film">
-                    <img className="images" src="https://zupimages.net/up/19/44/0j3u.jpg" />
+                    {/* <img className="images" src= {movies.posterUrl} /> */}
                     <img className="images" src="https://zupimages.net/up/19/44/tuqk.jpg" />
                     <img className="images" src="https://zupimages.net/up/19/44/6ihf.jpg" />
                     <img className="images" src="https://zupimages.net/up/19/44/aupc.jpg" />
@@ -26,8 +19,7 @@ class Home extends React.Component {
 
             </div >
         )
-    }
-};
+    };
 
 export default Home;
 
