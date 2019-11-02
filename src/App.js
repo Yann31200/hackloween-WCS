@@ -2,28 +2,25 @@ import React from 'react';
 import MoviesApi from './components/moviesApi';
 import './components/App.css';
 import Home from './components/acceuil';
-// import Game from './components/Game';
 import {Link, Switch, Route} from 'react-router-dom';
 import Footer from './components/Footer'
+import Quizz from './components/quizz';
 
 function App() {
   return (
     <div className= "App">
       <nav class="nav-container">
-        <ul>
-          <li><Link to="/home">Acceuil</Link></li>
+        <ul className="nav">
+          <li><Link to="/">Accueil</Link></li>
           <li><Link to="/cinematheque">Cinemathèque</Link></li>
           <li><Link to="/game">Quizz</Link> </li>
         </ul>
       </nav>
 
       <Switch>
-        <Route path="/home">
-          <Home />
-        </Route>
-        <Route path="/cinematheque" component={MoviesApi}/>
-        <Route path="/game">
-        </Route>
+        <Route exact path="/" component={Home} />
+        <Route path="/cinematheque" component={MoviesApi} />
+        <Route path="/game" component={Quizz} />
       </Switch>
       <Footer/>
     </div>

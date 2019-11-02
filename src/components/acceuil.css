@@ -34,3 +34,9 @@
     flex-wrap: wrap;
     border: 3px solid;
 }
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
