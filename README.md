@@ -1,4 +1,4 @@
-# hackloween-WCS
+# Hackloween-WCS
 
 ## Prérequis
 
@@ -8,7 +8,7 @@
 
 ```
 Dans un dossier vide :
-$ git clone git@github.com:Yann31200/hackloween-WCS.git
+$ git clone git@github.com:Morgane7260/hackloween-WCS.git
 $ cd hackloween-WCS
 $ npm i
 $ npm start
