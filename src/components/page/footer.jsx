@@ -1,9 +1,9 @@
 import React from 'react';
-import './Footer.css';
-import LogoFaceBook from '../assets/facebook.png';
-import LogoTwitter from '../assets/twitter.png';
-import LogoWild from '../assets/wild.jpg';
-import LogoInstagram from '../assets/instagram.png';
+import '../css/footer.css';
+import LogoFaceBook from '../../assets/facebook.png';
+import LogoTwitter from '../../assets/twitter.png';
+import LogoWild from '../../assets/wild.jpg';
+import LogoInstagram from '../../assets/instagram.png';
 
 function Footer() {
     return (

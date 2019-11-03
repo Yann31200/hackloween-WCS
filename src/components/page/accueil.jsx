@@ -1,7 +1,7 @@
 import React from 'react';
-import './accueil.css';
+import '../css/accueil.css';
 
-function Home( {movie}) {
+function Accueil ( {movie}) {
         return (
             < div className="container" >
                 <div className="presentation">
@@ -21,6 +21,6 @@ function Home( {movie}) {
         )
     };
 
-export default Home;
+export default Accueil;
 
 

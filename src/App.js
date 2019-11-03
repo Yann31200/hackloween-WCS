@@ -1,10 +1,10 @@
 import React from 'react';
-import MoviesApi from './components/moviesApi';
-import './components/App.css';
-import Home from './components/acceuil';
+import MoviesApi from './components/page/moviesApi';
+import './components/css/App.css';
+import Home from './components/page/accueil';
 import {Link, Switch, Route} from 'react-router-dom';
-import Footer from './components/Footer'
-import Quizz from './components/quizz';
+import Footer from './components/page/footer'
+import Quizz from './components/page/quizz';
 
 function App() {
   return (

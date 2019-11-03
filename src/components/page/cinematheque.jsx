@@ -1,5 +1,5 @@
 import React from 'react';
-import './cinematheque.css';
+import '../css/cinematheque.css';
 
 function Cinematheque({ movie }) {
     return (
