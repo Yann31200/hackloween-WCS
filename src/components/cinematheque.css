@@ -21,3 +21,32 @@ div.cinematheque {
     padding-left: 1em;
     padding-top: 2em;
 }
+
+.director {
+    font-family: none;
+    font-size: 2em;
+}
+
+.infoMovie {
+    display: flex;
+    flex-direction: column;
+}
+
+.director {
+    font-size: 1.2em;
+    margin: 0.2em;
+}
+
+.year {
+    font-size: 1.2em;
+    margin: 0.2em;
+}
+
+.country {
+    font-size: 1.2em;
+    margin: 0.2em;
+}
+
+.movieTitle {
+    margin-top: 0;
+}

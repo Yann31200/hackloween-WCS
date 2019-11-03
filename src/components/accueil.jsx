@@ -1,5 +1,5 @@
 import React from 'react';
-import './acceuil.css';
+import './accueil.css';
 
 function Home( {movie}) {
         return (
@@ -11,10 +11,10 @@ function Home( {movie}) {
                     <h3 className="title">En voici une brève sélection ma p'tite flipette</h3>
                 </div>
                 <div className="film">
-                    <img className="images" src="https://zupimages.net/up/19/44/0j3u.jpg" />
-                    <img className="images" src="https://zupimages.net/up/19/44/tuqk.jpg" />
-                    <img className="images" src="https://zupimages.net/up/19/44/6ihf.jpg" />
-                    <img className="images" src="https://zupimages.net/up/19/44/aupc.jpg" />
+                    <img className="images" src="https://zupimages.net/up/19/44/0j3u.jpg" alt=""/>
+                    <img className="images" src="https://zupimages.net/up/19/44/tuqk.jpg" alt=""/>
+                    <img className="images" src="https://zupimages.net/up/19/44/6ihf.jpg" alt=""/>
+                    <img className="images" src="https://zupimages.net/up/19/44/aupc.jpg" alt=""/>
                 </div>
 
             </div >

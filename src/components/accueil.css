@@ -18,6 +18,8 @@
 
 .text {
     text-align: center;
+    font-size: 1em;
+    color: brown;
 }
 
 .film {
@@ -39,4 +41,5 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: rgb(81, 83, 97);
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Cinematheque from "./Cinematheque"
 import axios from "axios";
-import Home from './acceuil';
+import Home from './accueil';
 
 class MoviesApi extends React.Component {
     constructor(props) {
