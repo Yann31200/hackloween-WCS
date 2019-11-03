@@ -1,10 +1,20 @@
 .container {
     display: flex;
-    background-image: url('https://zupimages.net/up/19/44/g2em.png');
+    background-image: url(../../assets/Abraham.jpg);
     background-size: cover;
-    color: aliceblue;
+    color: rgb(155, 132, 4);
     flex-wrap: wrap;
-    
+}
+
+.h1 {
+    color: black;
+    text-align: center;
+}
+
+.h2 {
+    color: black;
+    text-align: center;
+
 }
 
 .fond {
@@ -13,13 +23,17 @@
 }
 
 .title {
+    text-shadow: 10;
     text-align: center;
+    color: rgb(155, 132, 4);
 }
 
 .text {
     text-align: center;
     font-size: 1em;
-    color: brown;
+    color: rgb(85, 41, 6);
+    font-size: 1.5em;
+    text-shadow: 5px;
 }
 
 .film {
@@ -39,7 +53,8 @@
 
 .presentation {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    color: rgb(81, 83, 97);
+    color: rgb(4, 8, 34);
+    width: auto;
 }
