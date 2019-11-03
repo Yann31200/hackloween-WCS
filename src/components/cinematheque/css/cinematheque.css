@@ -1,0 +1,23 @@
+img.movies {
+    margin: 0%;
+    width: auto;
+    height: 20%;
+    flex-wrap: wrap;
+    border: 1px solid;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+div.cinematheque {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 2em;
+}
+
+.infos {
+    padding-left: 1em;
+    padding-top: 2em;
+}

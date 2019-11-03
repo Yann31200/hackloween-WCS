@@ -1,0 +1,90 @@
+{
+  "title": "Hackloween Quiz",
+  "questions": [
+    {
+      "question": "Le majordome te conduit à ta chambre en attendant le reste des convives. Seul... Le son d'une boite à musique lugubre se fait retentir derrière la porte de ta salle de bain. Que fais-tu ?",
+      "answers": [
+        {
+          "point": 1,
+          "label": "Tu ouvres la porte en cherchant comment arrêter la mélodie"
+        },
+        {
+          "point": 0,
+          "label": "Tu ignores la musique, installes une enceinte sur la table et fais péter un bon grand rock en attendant tes amis"
+        },
+        {
+          "point": 0,
+          "label": "Tu quitte la pièce pour rejoindre le majordome à toute jambes"
+        }
+      ]
+    },
+    {
+      "question": "Le clown Penny Wise ricane sous ton lit, alors que tu te repose d'une dure jounrnée à la wild, que fais-tu ?",
+      "answers": [
+        {
+          "point": 0,
+          "label": "Tu te cache sous ta couette en te disant qu'il se lassera avant toi, mais en faisant gaffe à ne faire dépasser ni bras ni orteils"
+        },
+        {
+          "point": 1,
+          "label": "Tu vas le rejoindre sous le lit pour lui faire part de ton ardent désir pour les clowns"
+        },
+        {
+          "point": 0,
+          "label": "Tu lui fais la causette et lui propose de venir boire un pot"
+        }
+      ]
+    },
+    {
+      "question": "En rentrant chez toi, tu passes devant le cimetière, des feux-follets soudain un grognement se laisse entendre et tu obsérve une main sortir de terre. Que fais-tu ?",
+      "answers": [
+        {
+          "point": 0,
+          "label": "Tu penses que c'est un enterré vivant et te dépêche de lui venir en aide"
+        },
+        {
+          "point": 1,
+          "label": "Tu lui tapes un check... normal gros !"
+        },
+        {
+          "point": 0,
+          "label": "Tu tapes un genoux épaules jusqu'à chez toi en ne passant à rien à part déguerpir."
+        }
+      ]
+    },
+    {
+      "question": "En te lavant les dents devant le miroir, tu constate que ton reflet n'a pas de brosse à dents et te regarde fixement. Que fais-tu ?",
+      "answers": [
+        {
+          "point": 0,
+          "label": "Tu décides résolument d'arrêter l'apéro"
+        },
+        {
+          "point": 1,
+          "label": "Tu lui fournis gentiment une brosse à dent"
+        },
+        {
+          "point": 0,
+          "label": "Tu fermes les yeux un instant espérant qu'il disparaisse en doutant de ce que tu as vu"
+        }
+      ]
+    },
+    {
+      "question": "Tu rentres chez toi avec ta grand mère perchée au plafond",
+      "answers": [
+        {
+          "point": 0,
+          "label": "Tu appelles un exorciste"
+        },
+        {
+          "point": 1,
+          "label": "Tu décide d'arrêter de laisser trainer de la drogue partout ,mais aprés réflexion arrêter la drogue s'impose !"
+        },
+        {
+          "point": 0,
+          "label": "Tu décroche le fusil de papi du mur et la plombe comme un chevreuil."
+        }
+      ]
+    }
+  ]
+}

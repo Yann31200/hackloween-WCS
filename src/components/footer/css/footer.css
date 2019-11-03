@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+
+.footer-style {
+    display: flex;
+    background-color: rgb(22, 19, 19);
+    padding: 2em;
+    bottom: 0px;
+    font-family: 'Creepster', cursive;
+}
+
+.logo-style {
+    height: 30px;
+    width: 30px;
+}
+
+.footerp1 {
+    display: flex;
+    width: 45%;
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.para-footer {
+    color: rgb(20, 127, 146);
+    font-family: 'Griffy', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    margin-right: 2em;
+}
+
+.footerp2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    padding-right: 2em;
+    flex-direction: row;
+    align-items: center;
+
+}

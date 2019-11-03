@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    background-image: url('https://zupimages.net/up/19/44/g2em.png');
+    background-size: cover;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+
+.fond {
+    width: 50%;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.film {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-evenly;
+    margin-bottom: 7px;
+}
+
+.images {
+    width: 20%;
+    height: auto;
+    flex-wrap: wrap;
+    border: 3px solid;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

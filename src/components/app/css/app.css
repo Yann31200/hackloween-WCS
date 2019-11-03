@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Griffy&display=swap');
+
+.nav-container {
+    background-color: rgb(20, 127, 146);
+}
+
+ul.nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul,li {
+    font-family: 'Big Shoulders Display', cursive;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Griffy', cursive;
+}
+
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: black;
+    font-family: 'Griffy', cursive;
+}
+
